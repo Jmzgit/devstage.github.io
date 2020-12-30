@@ -9,7 +9,7 @@ margin-top: -80px;
 }
 .mySample img{
    width: 60px;
-} 
+}
 .rw-wrapper {
    clear: left;
    width: 80%;
@@ -19,7 +19,7 @@ margin-top: -80px;
    padding: 0px;
 }
 
-.rw-sentence {
+.rw-sentence { 
    margin: 0;
    text-align: left;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);

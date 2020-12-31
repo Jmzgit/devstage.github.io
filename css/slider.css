@@ -19,7 +19,7 @@ body {
 
 .rw-sentence span {
    color: #444;
-   font-size: 350%;
+   font-size: 450%;
    font-weight: normal;
 }
 
@@ -107,7 +107,7 @@ body {
    float:left;
    left: 55px;
    bottom: 5px;
-   z-index:-1;
+font-size:60%;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 
 }

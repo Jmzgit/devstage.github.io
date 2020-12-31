@@ -97,8 +97,9 @@ body {
    display: inline-block;
    width:  60px;
    }
+   /* NOTE: Display: inline if I wish to keept same line...need to learn how to flex */
 .myImg{
-   display: inline; /* the default for span */
+   display: inline;
    width: 100px;
    height: 100px;
    padding: 0px;

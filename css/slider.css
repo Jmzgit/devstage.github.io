@@ -11,7 +11,7 @@ margin-top: -80px;
 }
 .mySample img{
    width: 60px;
-   opacity: 0.6;
+
 }
 
 .rw-wrapper {
@@ -92,10 +92,10 @@ margin-top: -80px;
    margin: 53px 10px 15px -10px;
    width: 95vw;
    height: 55px;
-   background-image: #fff;
+   background-image:url("../img/Diseased Apples Color Palette - color-hex.com.png");
    background-repeat: no-repeat;
    opacity: 1.0;
-   transition: 1s;
+   transition: 2.5s;
 }
 
 /* NOTE: rotation fade in and fade out */

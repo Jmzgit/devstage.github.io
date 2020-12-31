@@ -9,6 +9,7 @@ margin-top: -80px;
 }
 .mySample img{
    width: 60px;
+   opacity: 0.6;
 }
 
 .rw-wrapper {

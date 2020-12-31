@@ -6,6 +6,8 @@ body {
 float: right;
 margin-top: -80px;
    right: 5px ;
+   opacity: 0.6;
+
 }
 .mySample img{
    width: 60px;
@@ -90,7 +92,10 @@ margin-top: -80px;
    margin: 53px 10px 15px -10px;
    width: 95vw;
    height: 55px;
-   background-image: url("../img/Day to Night Color Palette - color-hex.com.png");
+   background-image: #fff;
+   background-repeat: no-repeat;
+   opacity: 1.0;
+   transition: 1s;
 }
 
 /* NOTE: rotation fade in and fade out */
@@ -114,6 +119,10 @@ margin-top: -80px;
       -webkit-transform: translateY(0px);
    }
 
+   35% {
+      opacity: 0;
+      -webkit-transform: translateY(180px);
+   }
 
    80% {
       opacity: 0.3;
@@ -148,6 +157,12 @@ margin-top: -80px;
       opacity: 0.5;
       -ms-transform: translateY(100px);
    }
+
+   35% {
+      opacity: 0;
+      -ms-transform: translateY(180px);
+   }
+
 
    80% {
       opacity: 0.3;

@@ -5,7 +5,7 @@ body {
 .rw-wrapper {
    width: 80%;
    position: relative;
-   margin: 110px auto 0 auto;
+   margin: 14vh auto 0 auto;
    font-family: 'Bree Serif';
    padding: 0px;
 }
@@ -83,7 +83,7 @@ body {
    display: flex;
    margin: 64px 10px 15px -10px;
    width: 95vw;
-   height: 55px;
+   height: 52px;
 }
 
 .mySample {
@@ -96,14 +96,14 @@ body {
 
 .mySample img {
    display: inline-block;
-   margin-top: 12px;
+   margin-top: 2px;
    width: 80px;
-   height: 30px;
+   height: 25px;
 }
 
 /* NOTE: Display: inline if I wish to keept same line...need to learn how to flex */
 .myImg {
-   opacity: 0.7;
+   opacity: 0.6;
    display: inline-block;
    width: auto;
    text-align: center;
@@ -116,7 +116,7 @@ h6 {
    text-align: center;
    font-family: 'Bree Serif';
    letter-spacing: .1em;
-   font-size: 55%;
+   font-size: 54%;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 

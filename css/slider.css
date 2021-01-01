@@ -82,7 +82,7 @@ body {
 /* NOTE: margin Top Right Bottom Left */
 #smallBlock {
    display: flex;
-   margin: 53px 10px 15px -10px;
+   margin: 64px 10px 15px -10px;
    width: 95vw;
    height: 55px;
 }

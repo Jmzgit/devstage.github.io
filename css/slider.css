@@ -106,8 +106,8 @@ body {
    opacity: 0.7;
    display: inline-block;
    width: auto;
-   float: right;
-   margin-right: 5px;
+   text-align: center;
+   margin: 0 50px;
 }
 
 h6 {

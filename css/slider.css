@@ -88,35 +88,36 @@ body {
 
 .mySample {
    position: fixed;
-            padding: 10px auto 0px auto;
-            bottom: 5px;
+   padding: 10px auto 0px auto;
+   bottom: 5px;
    width: 100vw;
-  text-align:center;
+   text-align: center;
 }
+
 .mySample img {
    display: inline-block;
    margin-top: 12px;
-   width:  80px;
+   width: 80px;
    height: 40px;
+}
 
-   }
-   /* NOTE: Display: inline if I wish to keept same line...need to learn how to flex */
-.myImg{
+/* NOTE: Display: inline if I wish to keept same line...need to learn how to flex */
+.myImg {
    opacity: 0.7;
    display: inline-block;
    width: auto;
    float: right;
    margin-right: 5px;
-   }
+}
 
 h6 {
    display: inline-block;
    width: auto;
-   padding:  0 0 0 0;
-   text-align:center;
+   padding: 0 0 0 0;
+   text-align: center;
    font-family: 'Bree Serif';
    letter-spacing: .1em;
-   font-size:60%;
+   font-size: 60%;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 
@@ -238,7 +239,6 @@ h6 {
    }
 }
 
-
 @media screen and (max-width: 768px) {
    .rw-sentence {
       font-size: 18px;
@@ -246,9 +246,7 @@ h6 {
 }
 
 @media screen and (max-width: 320px) {
-
    .rw-sentence {
       font-size: 9px;
    }
-
-   }
+}

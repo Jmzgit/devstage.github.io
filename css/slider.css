@@ -8,7 +8,6 @@ body {
    margin: 110px auto 0 auto;
    font-family: 'Bree Serif';
    padding: 0px;
-   border: 1px black solid;
 }
 
 .rw-sentence {
@@ -88,33 +87,35 @@ body {
 }
 
 .mySample {
-   position: absolute;
-   bottom: 5px;
-   border: 1px black solid;
+   position: fixed;
+            padding: 10px auto 0px auto;
+            bottom: 5px;
    width: 100vw;
+  text-align:center;
 }
 .mySample img {
    display: inline-block;
-   width:  60px;
+   margin-top: 12px;
+   width:  80px;
+   height: 40px;
+
    }
    /* NOTE: Display: inline if I wish to keept same line...need to learn how to flex */
 .myImg{
-   display: inline;
-   width: 100px;
-   height: 100px;
-   padding: 0px;
+   opacity: 0.7;
+   display: inline-block;
+   width: auto;
+   float: right;
+   margin-right: 5px;
    }
+
 h6 {
-   display: inline;
-   width: 40%;
+   display: inline-block;
+   width: auto;
+   padding:  0 95px 0 0;
+   text-align:center;
    font-family: 'Bree Serif';
-   padding:0 10px;
-   border: 1px black solid;
-   letter-spacing: .4em;
-}
-#myEmail{
-   left: 55px;
-   bottom: 5px;
+   letter-spacing: .1em;
    font-size:60%;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }

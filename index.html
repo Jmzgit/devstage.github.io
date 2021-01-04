@@ -17,6 +17,7 @@
 <meta name="google-site-verification" content="o_Igekoiz1e3O-sxUIRtWjRlpFuf9VspF-aD-BqhDVw" />
       <meta charset="utf-8">
       <title>
+      
          Local Web Design :: Burnaby Web Design
 
       </title>
@@ -27,16 +28,14 @@
       <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
       <link rel="text" href="./google0149e6c513c899ba.html">
       <link rel="stylesheet" href="css/slider.css">
-      <script src="js/gallery1.js" charset="utf-8"></script>
+
       <style>
          .no-cssanimations .rw-wrapper .rw-sentence span:first-child {
             opacity: 1.0;
          }
       </style>
    </head>
-   <body>
-
-
+    <body onload="walkPix()">
 
       <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB5RRZT"
@@ -60,31 +59,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </h2>
          </section>
       </main>
-      <div id="smallBlock"></div>
+           <div >
+         <img src="" id="smallBlock" alt="">
+      </div>
 
-      <footer class="mySample">
+      <footer>
 
          <h6 class="rw-sentence">
             <span>info@WeKnowStudio.com</span>
          </h6>
-         <div class="myImg">
-            <img class="preview" src="img/Green Beach Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/muted pastels to highlight Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/Ocean Pastels Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/Diseased Apples Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/Guacamole Crisp Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/Fineline Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/Day to Night Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
-            &nbsp;&nbsp; &nbsp;&nbsp;
-            <img class="preview" src="img/Not Quite Right Color Palette - color-hex.com.png" alt="" onmouseover="upDate(this)" onmouseout="unDo()">
 
-         </div>
       </footer>
+               <script type="text/javascript">
+
+            var myPix = [ "img/Green Beach Color Palette - color-hex.com.png", "img/muted pastels to highlight Color Palette - color-hex.com.png", "img/Ocean Pastels Color Palette - color-hex.com.png","img/Nowaday01 Color Palette - color-hex.com.png", "img/Diseased Apples Color Palette - color-hex.com.png", "img/Guacamole Crisp Color Palette - color-hex.com.png","img/Fineline Color Palette - color-hex.com.png", "img/Day to Night Color Palette - color-hex.com.png", "img/Not Quite Right Color Palette - color-hex.com.png" ];
+
+            function walkPix() {
+            var size = myPix.length;
+            var randomNum = Math.floor(Math.random()*size);
+               document.getElementById("smallBlock").src = myPix[randomNum];
+            }
+
+         </script>
    </body>
 </html>

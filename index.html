@@ -17,11 +17,10 @@
 <meta name="google-site-verification" content="o_Igekoiz1e3O-sxUIRtWjRlpFuf9VspF-aD-BqhDVw" />
       <meta charset="utf-8">
       <title>
-      
+
          Local Web Design :: Burnaby Web Design
 
       </title>
-
 
 
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -60,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          </section>
       </main>
            <div >
-         <img src="" id="smallBlock" alt="">
+         <img src="img/Yellow the green Color Palette - color-hex.com.png" id="smallBlock" alt="">
       </div>
 
       <footer class="mySample">
@@ -71,13 +70,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          </footer>
                <script type="text/javascript">
 
-            var myPix = [ "img/Green Beach Color Palette - color-hex.com.png", "img/muted pastels to highlight Color Palette - color-hex.com.png", "img/Ocean Pastels Color Palette - color-hex.com.png","img/Nowaday01 Color Palette - color-hex.com.png", "img/Diseased Apples Color Palette - color-hex.com.png", "img/Guacamole Crisp Color Palette - color-hex.com.png","img/Fineline Color Palette - color-hex.com.png", "img/Day to Night Color Palette - color-hex.com.png", "img/Not Quite Right Color Palette - color-hex.com.png" ];
+            var myPix = [ "img/Green Beach Color Palette - color-hex.com.png",
+                          "img/muted pastels to highlight Color Palette - color-hex.com.png",
+                          "img/Ocean Pastels Color Palette - color-hex.com.png",
+                          "img/Nowaday01 Color Palette - color-hex.com.png",
+                          "img/Diseased Apples Color Palette - color-hex.com.png",
+                          "img/Guacamole Crisp Color Palette - color-hex.com.png",
+                          "img/Fineline Color Palette - color-hex.com.png",
+                          "img/Day to Night Color Palette - color-hex.com.png",
+                          "img/Not Quite Right Color Palette - color-hex.com.png" ];
 
-            function walkPix() {
+            setInterval(function walkPix() {
             var size = myPix.length;
             var randomNum = Math.floor(Math.random()*size);
-               document.getElementById("smallBlock").src = myPix[randomNum];
-            }
+
+            document.getElementById("smallBlock").src = myPix[randomNum];
+            document.getElementById(this).style.transition = "all 4.5s";
+         } , 5000);
+
+
 
          </script>
    </body>

@@ -95,8 +95,8 @@ body {
 
 .mySample h2 span {
    position: fixed;
-   right: 6%;
-   bottom: 2%;
+   right: 40px;
+   bottom: 5px;
    width: 100vw;
    text-align: right;
 }
@@ -105,8 +105,9 @@ h2 {
    font-family: 'Andika New Basic', sans-serif;
    display: inline-block;
    color: #1d1f2a;
+   width: auto;
    letter-spacing: .1em;
-   text-shadow: .1px .1px .1px rgba(255, 255, 255, 0.8)
+   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
 }
 
 @-webkit-keyframes rotateWord {

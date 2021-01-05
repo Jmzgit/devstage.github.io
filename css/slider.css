@@ -8,7 +8,7 @@ body {
    position: relative;
    margin: 0 auto 0 auto;
    font-family: 'Bree Serif';
-   padding: 25px 30px;
+   padding: 25px 35px;
 }
 
 .rw-sentence img {
@@ -32,7 +32,7 @@ body {
 .rw-words span {
    display: inline;
    text-indent: 32px;
-   font-size: 300%;
+   font-size: 270%;
 }
 
 .rw-words-1 span {
@@ -222,11 +222,11 @@ h6 {
    }
 
    80% {
-      opacity: .3
+      opacity: .2
    }
 
    82% {
-      opacity: 0.3 -webkit-transform: translateY(-50px);
+      opacity: 0.2 -webkit-transform: translateY(-50px);
       transform: translateY(-50px)
    }
 }

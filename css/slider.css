@@ -184,12 +184,12 @@ h6 {
 
 @keyframes rotateWord {
     0% {
-        opacity: .5
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px)
+        opacity: .2
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px)
     }
-    2% {
-        opacity: 1;
+    8% {
+        opacity: .8;
         -webkit-transform: translateY(0px);
         transform: translateY(0px)
     }

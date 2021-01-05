@@ -9,10 +9,11 @@ body {
     position: relative;
     margin: 0 auto 0 auto;
     font-family: 'Bree Serif';
-    padding:  30px;
+    padding: 25px 30px;
 }
 .rw-sentence img{
-   width:80%;
+   width: 75%;
+   z-index: -1;
 }
 .rw-sentence {
     margin: 0;
@@ -29,7 +30,7 @@ body {
 
 .rw-words span {
     display: inline;
-    text-indent: 52px;
+    text-indent: 32px;
     font-size: 300%;
 }
 
@@ -184,12 +185,12 @@ h6 {
 
 @keyframes rotateWord {
     0% {
-        opacity: .2
+        opacity: .7
         -webkit-transform: translateY(-50px);
         transform: translateY(-50px)
     }
     8% {
-        opacity: .8;
+        opacity: .9;
         -webkit-transform: translateY(0px);
         transform: translateY(0px)
     }
@@ -201,14 +202,16 @@ h6 {
     }
     35% {
         opacity: 0;
-        -webkit-transform: translateY(180px);
-        transform: translateY(180px)
+        -webkit-transform: translateY(140px);
+        transform: translateY(140px)
     }
     80% {
         opacity: .3
     }
     82% {
-        opacity: 0
+        opacity: 0.3
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px)
     }
 }
 

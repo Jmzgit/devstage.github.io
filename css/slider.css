@@ -93,7 +93,7 @@ body {
    width: 95vw;
 }
 
-.mySample span {
+.mySample {
    position: fixed;
    right: 40px;
    bottom: 5px;

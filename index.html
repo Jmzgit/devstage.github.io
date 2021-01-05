@@ -58,8 +58,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </h2>
          </section>
       </main>
-           <div >
-         <img src="img/Yellow the green Color Palette - color-hex.com.png" id="smallBlock" alt="">
+           <div  class="myDiv" >
+         <img id="smallBlock" src="img/Yellow the green Color Palette - color-hex.com.png" alt="">
       </div>
 
       <footer class="mySample">
@@ -85,7 +85,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             var randomNum = Math.floor(Math.random()*size);
 
             document.getElementById("smallBlock").src = myPix[randomNum];
-            document.getElementById(this).style.transition = "all 4.5s";
          } , 5000);
 
 

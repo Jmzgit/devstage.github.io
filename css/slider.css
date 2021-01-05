@@ -79,12 +79,15 @@ body {
 }
 
 #smallBlock {
-    display: flex;
-    margin: 64px 10px 15px -10px;
-    width: 95vw;
-    height: 52px
-}
+   display: flex;
+   margin: 64px 10px 15px -10px;
+   height: 52px;
+      width: 95vw;
 
+}
+.myDiv{
+   transition: all 2.5s;
+}
 .mySample {
     position: fixed;
     padding: 10px auto 0 auto;

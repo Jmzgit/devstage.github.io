@@ -1,5 +1,5 @@
 body {
-   font-family: 'Bree Serif';
+
    padding: -10px;
 }
 
@@ -24,6 +24,7 @@ body {
 }
 
 .rw-sentence span {
+   font-family: 'Bree Serif';
    color: #444;
    font-size: 450%;
    font-weight: normal
@@ -94,33 +95,18 @@ body {
 
 .mySample {
    position: fixed;
-   padding: 10px auto 0 auto;
+   right: 40px;
    bottom: 5px;
    width: 100vw;
-   text-align: center
+   text-align: right;
 }
 
-.mySample img {
+h2 {
+   font-family: 'Andika New Basic', sans-serif;
    display: inline-block;
-   margin-top: 2px;
-   width: 80px;
-   height: 25px
-}
-
-.myImg {
-   opacity: .6;
-   display: inline-block;
+   color: #1d1f2a;
    width: auto;
-   text-align: center;
-   margin: 0 50px
-}
-
-h6 {
-   display: inline-block;
-   width: auto;
-   text-align: center;
    letter-spacing: .1em;
-   font-size: 54%;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
 }
 

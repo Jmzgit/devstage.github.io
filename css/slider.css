@@ -1,19 +1,24 @@
 body {
-    padding: -10px
+    font-family: 'Bree Serif';
+    padding: -10px;
 }
 
 .rw-wrapper {
-    width: 80%;
-    position: relative;
-    margin: 14vh auto 0 auto;
-    font-family: 'Bree Serif';
-    padding: 0
-}
+   float: left;
 
+    position: relative;
+    margin: 0 auto 0 auto;
+    font-family: 'Bree Serif';
+    padding:  30px;
+}
+.rw-sentence img{
+   width:80%;
+}
 .rw-sentence {
     margin: 0;
+    padding-left: 0;
     text-align: left;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 
 .rw-sentence span {
@@ -24,8 +29,8 @@ body {
 
 .rw-words span {
     display: inline;
-    text-indent: 1px;
-    font-size: 150%
+    text-indent: 52px;
+    font-size: 300%;
 }
 
 .rw-words-1 span {
@@ -80,14 +85,11 @@ body {
 
 #smallBlock {
    display: flex;
-   margin: 64px 10px 15px -10px;
+   margin: 0 10px 15px -10px;
    height: 52px;
       width: 95vw;
+}
 
-}
-.myDiv{
-   transition: all 2.5s;
-}
 .mySample {
     position: fixed;
     padding: 10px auto 0 auto;
@@ -115,7 +117,6 @@ h6 {
     display: inline-block;
     width: auto;
     text-align: center;
-    font-family: 'Bree Serif';
     letter-spacing: .1em;
     font-size: 54%;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
@@ -183,23 +184,16 @@ h6 {
 
 @keyframes rotateWord {
     0% {
-        opacity: 0
-    }
-    2% {
-        opacity: 0;
+        opacity: .5
         -webkit-transform: translateY(-30px);
         transform: translateY(-30px)
     }
-    5% {
+    2% {
         opacity: 1;
         -webkit-transform: translateY(0px);
         transform: translateY(0px)
     }
-    17% {
-        opacity: 1;
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px)
-    }
+
     20% {
         opacity: 1;
         -webkit-transform: translateY(100px);

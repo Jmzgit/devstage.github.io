@@ -2,6 +2,8 @@ body {
 
    padding: -10px;
 }
+h2::selection {
+  background-color: #f1c40f;}
 
 .rw-wrapper {
    float: left;

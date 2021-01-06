@@ -1,3 +1,8 @@
+function myScreenbitch(){
+   document.getElementById('myScreen').innerHTML = "Arigatō!";
+
+}
+
 document.getElementById("smallBlock");
 
 function upDate(a){

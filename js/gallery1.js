@@ -1,6 +1,9 @@
-setInterval(function myScreenbitch(){
+function myScreenbitch(){
    document.getElementById('myScreen').innerHTML = "Arigatō!";
-}, 5000);
+   setTimeout(function () {
+         document.getElementById('myScreen').innerHTML = "";
+   }, 3000);
+};
 
 document.getElementById("smallBlock");
 

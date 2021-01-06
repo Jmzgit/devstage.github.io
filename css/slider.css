@@ -119,6 +119,9 @@ td:nth-child(2) {
    width: 50vw;
    text-align: right;
 }
+#myScreen {
+   text-align: right;
+}
 
 @-webkit-keyframes rotateWord {
    0% {

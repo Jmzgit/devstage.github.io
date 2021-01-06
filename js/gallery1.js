@@ -1,5 +1,7 @@
 function myScreenbitch(){
-   document.getElementById('myScreen').innerHTML = "Arigatō!";
+   var element = document.setElementById("myScreen");
+   element.style.text-align = "right";
+   document.getElementById("myScreen").innerHTML = "Arigatō!";
 
 }
 

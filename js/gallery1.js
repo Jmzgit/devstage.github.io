@@ -2,7 +2,7 @@ function myScreenbitch(){
    document.getElementById('myScreen').innerHTML = "Arigatō!";
    setTimeout(function () {
          document.getElementById('myScreen').innerHTML = "";
-   }, 5000);
+   }, 3000);
 };
 
 document.getElementById("smallBlock");

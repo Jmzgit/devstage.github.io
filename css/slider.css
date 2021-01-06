@@ -121,10 +121,9 @@ td:nth-child(2) {
 }
 #myScreen {
    height: 10vh;
-   right: 15vw;
+   margin-right: 15vw;
    font-size: 200%;
    text-align: right;
-
 }
 
 @-webkit-keyframes rotateWord {

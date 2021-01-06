@@ -120,8 +120,8 @@ td:nth-child(2) {
    text-align: right;
 }
 #myScreen {
-   height: 10vh;
-   margin-right: 15vw;
+   height: 25vh;
+   margin-right: 25vw;
    font-size: 200%;
    text-align: right;
 }

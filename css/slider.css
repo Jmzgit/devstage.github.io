@@ -107,17 +107,16 @@ tr{
 }/* FlexCell: In a table if 2 cells in same row to adjust or make cell flex and other fixed,
       flex cell width:auto and fixed cell width: % or vw */
 td:nth-child(1){
-   width:30vw;
-   padding: 10px;
-   text-align: right;
-
-}  
+   width:50vw;
+   padding: 0 0 0 20px;
+   text-align: left;
+}
 
 td:nth-child(2) {
    font-size: 200%;
    display: inline-block;
    color: #1d1f2a;
-   width: 70vw;
+   width: 50vw;
    text-align: right;
 }
 

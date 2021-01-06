@@ -1,6 +1,6 @@
 body {
 
-   padding: -10px;
+   padding: 0px;
 }
 
 .rw-wrapper {
@@ -95,19 +95,30 @@ body {
 
 .mySample {
    position: fixed;
-   right: 40px;
    bottom: 5px;
-   width: 100vw;
-   text-align: right;
+   width: 95vw;
 }
 
-h2 {
-   font-family: 'Andika New Basic', sans-serif;
+tr{
+   margin: 120px;
+      font-family: 'Andika New Basic', sans-serif;
+      letter-spacing: .1em;
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}/* FlexCell: In a table if 2 cells in same row to adjust or make cell flex and other fixed,
+      flex cell width:auto and fixed cell width: % or vw */
+td:nth-child(1){
+   width:30vw;
+   padding: 10px;
+   text-align: right;
+
+} 
+
+td:nth-child(2) {
+   font-size: 200%;
    display: inline-block;
    color: #1d1f2a;
-   width: auto;
-   letter-spacing: .1em;
-   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
+   width: 70vw;
+   text-align: right;
 }
 
 @-webkit-keyframes rotateWord {

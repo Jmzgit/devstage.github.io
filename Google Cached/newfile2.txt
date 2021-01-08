@@ -1,3 +1,58 @@
+commit 5c9fb2a81ef58a976ea2a67b8717681038bb5c54
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Fri Jan 8 08:00:31 2021 -0800
+
+    ADjusting SEO part 2 - Changes ocurred afer Google Search Console Sitemaps did read out on Jan 7th so monitor Sitemaps every time it reads it
+
+commit 4520a6ec99cba96a389d370f054951204d53bd9f
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Fri Jan 8 07:57:26 2021 -0800
+
+    ADjusting SEO after seeing that search for we know studio was out and search for Burnaby Web Design has us in page 6...no descritpion meta yet only content in alt
+
+commit e87c66567c67aa4970a76d8e0021064ee48b4f39
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Thu Jan 7 19:09:24 2021 -0800
+
+    ok no viewport
+
+commit 21e4dfabd775d741b72dd1fd09cc910e240f9258
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Thu Jan 7 18:57:19 2021 -0800
+
+    ok no viewport
+
+commit fa1a0a1427b54e4227086e43b121c72ba273b7ad
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Thu Jan 7 18:05:20 2021 -0800
+
+    Merge
+
+commit cb4e48a887f804d7472d8216bd6c6321c5688c5a
+Merge: 8bf6d3c 7b60c9d
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Thu Jan 7 17:37:58 2021 -0800
+
+    Merge branch 'main' of https://github.com/Jmzgit/dev.github.io into main
+
+commit 7b60c9d9afa9ca1a78c018506663445b8a65f134
+Author: Aurelio <aureliojmz@gmail.com>
+Date:   Thu Jan 7 15:48:05 2021 -0800
+
+    Changed Image type to .webp
+
+commit afbd6eca6a006daf067d2254c75ef4deaafd5e29
+Author: Aurelio <aureliojmz@gmail.com>
+Date:   Thu Jan 7 15:37:00 2021 -0800
+
+    First time Google SEO documenting
+
+commit 6c32f98eee095efb864f9845423f399ff1ec7f8d
+Author: Aurelio <aureliojmz@gmail.com>
+Date:   Thu Jan 7 14:34:47 2021 -0800
+
+    Extracted Commit history to Build SEO steps
+
 commit 022d643a03bb52c0bb53e7be95517a5c4c8e4b5e
 Author: Aurelio <aureliojmz@gmail.com>
 Date:   Thu Jan 7 11:16:44 2021 -0800
@@ -39,6 +94,24 @@ Author: Aurelio <aureliojmz@gmail.com>
 Date:   Thu Jan 7 10:01:17 2021 -0800
 
     yes
+
+commit 8bf6d3ce5b3ea991deee1e8c3972005c1edafd55
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Wed Jan 6 20:55:10 2021 -0800
+
+    added Viewport meta tag
+
+commit 01667f8ed6eee89ac3137cec860160c265e6e019
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Wed Jan 6 19:03:39 2021 -0800
+
+    okay
+
+commit 2bafc7b06127c5b5e4d5bd8994492188b5fe60a9
+Author: son2o3 <aureliojmz@gmail.com>
+Date:   Wed Jan 6 17:47:21 2021 -0800
+
+    okay
 
 commit abf00e1d7665376f96c714985fc82b7b14d4d60a
 Author: Aurelio <aureliojmz@gmail.com>
@@ -1055,7 +1128,3 @@ Author: Aurelio <aureliojmz@gmail.com>
 Date:   Wed Dec 30 13:21:49 2020 -0800
 
     okay
-Appending to last line[D[D[D[D /n newline?
-new line is enter
-q
-<h1> Exit page with ctrl+c</h1>

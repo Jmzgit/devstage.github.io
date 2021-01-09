@@ -107,71 +107,70 @@ h2 {
    color: #1d1f2a;
    width: 50%;
    letter-spacing: .1em;
-   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
+   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 }
 
 @-webkit-keyframes rotateWord {
    0% {
-      opacity: 0
+      opacity: 0;
    }
 
    2% {
       opacity: 0;
-      -webkit-transform: translateY(-30px)
+      -webkit-transform: translateY(-30px);
    }
 
    5% {
       opacity: 1;
-      -webkit-transform: translateY(0px)
+      -webkit-transform: translateY(0px);
    }
 
    17% {
       opacity: 1;
-      -webkit-transform: translateY(0px)
+      -webkit-transform: translateY(0px);
    }
-
    35% {
       opacity: 0;
-      -webkit-transform: translateY(180px)
+      -webkit-transform: translateY(140px);
    }
 
    80% {
-      opacity: .3
+      opacity: .3;
    }
 
    82% {
-      opacity: 0
+      opacity: 0;
    }
 }
 
 @-ms-keyframes rotateWord {
    0% {
-      opacity: 0
+      opacity: 0;
    }
 
    2% {
       opacity: 0;
-      -ms-transform: translateY(-30px)
+      -ms-transform: translateY(-30px);
    }
 
    5% {
       opacity: 1;
-      -ms-transform: translateY(0px)
+      -ms-transform: translateY(0px);
    }
 
    17% {
       opacity: 1;
-      -ms-transform: translateY(0px)
+      -ms-transform: translateY(0px);
    }
 
    20% {
       opacity: 1;
-      -ms-transform: translateY(100px)
+      -ms-transform: translateY(100px);
    }
 
    35% {
       opacity: 0;
-      -ms-transform: translateY(180px)
+      -ms-transform: translateY(140px);
    }
 
    80% {
@@ -221,6 +220,7 @@ h2 {
    #smallBlock{
       height:  45px;
    }
+
    .rw-sentence span{
       font-size: 30px;
       text-indent: 4vw;
@@ -234,10 +234,14 @@ h2 {
 }
 @media screen and (max-width:375px) {
    #smallBlock{
-      height:  26px;
+      height:  24px;
+   }
+   .rw-wrapper{
+      margin: -10px 0 0 10px;
+      padding-left: 0;
    }
    .rw-sentence span{
-      font-size: 19px;
+      font-size: 18px;
       text-indent: 4vw;
    }
    h2{
@@ -247,7 +251,9 @@ h2 {
 
 @media screen and (max-width:320px) {
    #smallBlock{
-      height:  30px;
+      margin-top: -10px;
+      height:  25px;
+      z-index: 1;
    }
    .rw-sentence span{
       font-size: 19px;

@@ -222,7 +222,7 @@ h2 {
       height:  45px;
    }
    .rw-sentence span{
-      font-size: 32px;
+      font-size: 30px;
       text-indent: 4vw;
    }
    h2{
@@ -230,6 +230,18 @@ h2 {
       display: inline-block;
       color: #1d1f2a;
       width: 50%;
+   }
+}
+@media screen and (max-width:375px) {
+   #smallBlock{
+      height:  26px;
+   }
+   .rw-sentence span{
+      font-size: 19px;
+      text-indent: 4vw;
+   }
+   h2{
+      font-size: 75%;
    }
 }
 

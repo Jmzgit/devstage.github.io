@@ -95,9 +95,9 @@ body {
 
 .mySample {
    position: fixed;
-   right: 40px;
+   right: 10%;
    bottom: 5px;
-   width: 100vw;
+   width: 90vw;
    text-align: right;
 }
 
@@ -105,7 +105,7 @@ h2 {
    font-family: 'Andika New Basic', sans-serif;
    display: inline-block;
    color: #1d1f2a;
-   width: auto;
+   width: 50%;
    letter-spacing: .1em;
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8)
 }
@@ -218,13 +218,30 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
-   .rw-sentence {
-      font-size: 18px
+   #smallBlock{
+      height:  45px;
+   }
+   .rw-sentence span{
+      font-size: 32px;
+      text-indent: 4vw;
+   }
+   h2{
+      font-size: 100%;
+      display: inline-block;
+      color: #1d1f2a;
+      width: 50%;
    }
 }
 
 @media screen and (max-width:320px) {
-   .rw-sentence {
-      font-size: 9px
+   #smallBlock{
+      height:  30px;
+   }
+   .rw-sentence span{
+      font-size: 19px;
+      text-indent: 4vw;
+   }
+   h2{
+      font-size: 75%;
    }
 }

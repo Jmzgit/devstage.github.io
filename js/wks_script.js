@@ -7,5 +7,5 @@ setInterval(function walkPix() {
 }, 5000);
 
 function myEmail() {
-   location.href = "mailto:mail@weknowstudio.com"
+   location.href = "mailto:info@weknowstudio.com"
 }

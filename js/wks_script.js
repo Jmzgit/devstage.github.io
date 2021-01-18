@@ -6,5 +6,5 @@ setInterval(function walkPix() {
 }, 5000);
 
 function myMobile() {
-   location.href = "tel:+526462408973"
+   href = "tel:+526462408973";
 };

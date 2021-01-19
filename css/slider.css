@@ -1,6 +1,7 @@
 h1 {
    display: none;
-   visibility: hidden
+   visibility: hidden;
+   color: #ffffff;
 }
 
 .rw-wrapper {
@@ -15,7 +16,7 @@ h1 {
 .rw-sentence img {
    width: 75%;
    z-index: -1;
-      border: 1px solid #000;
+   border: 1px solid #000;
 }
 
 .rw-sentence {
@@ -86,8 +87,9 @@ h1 {
    color: #9d6b86;
    text-shadow: .1px .1px .1px #9d6b86
 }
-header{
-      border: 1px solid #000;
+
+header {
+   border: 1px solid #000;
 }
 
 #smallBlock {
@@ -95,7 +97,7 @@ header{
    margin: 0 10px 15px -10px;
    height: 52px;
    width: 95vw;
-      border: 1px solid #000;
+   border: 1px solid #000;
 }
 
 .mySample {
@@ -112,7 +114,7 @@ h2 {
    color: #1d1f2a;
    width: 50%;
    letter-spacing: .1em;
-      border: 1px solid #000;
+   border: 1px solid #000;
 }
 
 h2 span:hover {
@@ -124,8 +126,8 @@ h2 span {
 }
 
 footer {
-   width: auto;
-      border: 1px solid #000;
+   width: 95%;
+   border: 1px solid #000;
 }
 
 @-webkit-keyframes rotateWord {

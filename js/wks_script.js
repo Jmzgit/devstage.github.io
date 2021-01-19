@@ -6,5 +6,6 @@ setInterval(function walkPix() {
 }, 5000);
 
 function myMobile() {
-   href = "tel:+526462408973"
+   var digits = document.getElementById('myCell');
+digits.href =  "tel:+526462408973";
 };
